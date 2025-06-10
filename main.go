@@ -33,7 +33,7 @@ func main() {
 	var qnt_ports uint32
 	var site string
 
-	fmt.Printf("Digite o site: ")
+	fmt.Printf("Digite o site ou endereço ip: ")
 	fmt.Scan(&site)
 
 	fmt.Printf("Quantidade de portas (Máximo - %d): ", MAX_PORTS)
